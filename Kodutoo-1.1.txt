@@ -1,0 +1,14 @@
+Raamatute järjestamine kõrguse järgi
+
+Sisend: N raamatut riiulil, igal raamatul on kõrgus.
+Väljund: Raamatud järjestatud kasvavas järjekorras kõrguse järgi.
+
+Sammud:
+1. Koguge kõik raamatud riiulilt ja looge loend.
+2. Kontrollige igat raamatut ja võta nende kõrgused.
+3. Sorteerige raamatud kõrguse järgi kasvavas järjekorras, kasutades näiteks bubblesorti:
+    a. Alustada kõige esimesest raamatust.
+    b. Võrdle kõrvuti olevaid raamatuid omavahel.
+    c. Kui esimene raamat on kõrgem kui teine, vahetage nad.
+    d. Korrata seda kuniks kõik raamatud on õiges järjestuses.
+4. Pange raamatud tagasi riiulile sorteeritud järjekorras.

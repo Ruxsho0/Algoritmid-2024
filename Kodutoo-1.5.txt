@@ -1,0 +1,29 @@
+Puul on kenasti välja toodud 11 elementi, nendeks on:
+
+1. Tegevjuht - Ettevõtte kõige suurem juht, kes vastutab kõige eest.
+1.1 Juhtimismeeskond - Vastutab firmas finantsiliselt.
+1.2 IT-operatsioonide juht - Vastutab firmas kogu IT osa poolt.
+2. Süsteemide juhataja - Vastutab võrgu, süsteemide ja andmebaaside eest.
+3. Tarkvaraarenduse juht - Kõik mis on seotud tarkvaraarendusega.
+2.1 Võrgu administraator - Vastutab võrgu haldamise eest.
+2.2 Süsteemiadministraator - Vastutab süsteemi haldamise eest.
+2.3 Andmebaasi administraator - Vastutab andmebaasi haldamise eest.
+3.1 Frontend arendajad - Vastutavad eesotsas oleva programmi või muu arendamise eest.
+3.2 Backend arendajad - Vastutavad tagapool oleva programmi või muu arendamise eest.
+3.3 Testijad - Vastutavad, programmi või muu testimise eest.
+
+
+Puud ja graafid on olulised andmestruktuurid, millel on erinevad omadused ja kasutusvaldkonnad.
+
+Puud
+
+Atsüklilisus: Puud on alati atsüklilised, mis tähendab, et seal ei ole sulgusid. Igal tipul on maksimaalselt üks eelkäija (välja arvatud juurtipp).
+Unikaalne tee: Iga kaks tippu on omavahel seotud täpselt ühe teega, mis lihtsustab andmete leidmist ja hierarhilise struktuuri loomist.
+Hierarhia: Puudel on lehttipud (ilma alampunktideta) ja sisetipud (alampunktidega), mis sobib hästi organisatsiooniliste struktuuride modelleerimiseks.
+Näide: Ettevõtte juhtimismeeskond, kus tegevjuht on juurtipp ja alluvatel on selged rollid.
+
+Graafid
+
+Tsüklilisus ja silmused: Graafid võivad sisaldada sulgude struktuure ja silmuseid, võimaldades keerukamaid seoseid.
+Mitme ühenduse võimalus: Samad tipud võivad olla ühendatud mitme erineva kaarega, võimaldades erinevaid suhteid.
+Paindlikkus: Graafid sobivad keerukate struktuuride, nagu sotsiaalvõrgustikud või transpordivõrgud, modelleerimiseks.

@@ -1,5 +1,6 @@
 def selection_sort(arr):                                                # Valiku sorteerimise algoritm
     n = len(arr)                                                        # Määrame massiivi pikkuse
+    print("Algne:", arr)                                                # Prindib algse massiivi
     for i in range(n):                                                  # Välimine tsükkel, mis kordub n korda
         min_idx = i                                                     # Määrame min_idx väärtuseks i
         for j in range(i+1, n):                                         # Sisemine tsükkel, mis kordub n-i-1 korda
@@ -12,3 +13,5 @@ def selection_sort(arr):                                                # Valiku
 arr = [29, 15, 56, 77, 18]                                              # Kodutöö 2.2 massiiv
 sorted_arr = selection_sort(arr)                                        # Kutsub välja valiku sorteerimise funktsiooni
 print("Sorteeritult:", sorted_arr)                                      # Prindib sorteeritud massiivi
+
+# [29, 15, 56, 77, 18] -> [15, 29, 56, 77, 18] -> [15, 18, 56, 77, 29] -> [15, 18, 29, 77, 56] -> [15, 18, 29, 56, 77]

@@ -6,7 +6,6 @@ def insertion_sort(arr):                                # Lisamise sorteerimise 
             arr[j + 1] = arr[j]                         # Vahetame elemendid omavahel
             j -= 1                                      # Vähendame j väärtust ühe võrra
         arr[j + 1] = key                                # Määrame arr[j+1] väärtuseks key
-        print(f"{i}: {arr}")                            # Prindib massiivi pärast iga läbimist
     return arr
 
 

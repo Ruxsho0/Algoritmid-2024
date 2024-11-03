@@ -1,19 +1,14 @@
-def selection_sort(arr):
-    # Traverse through all array elements
-    for i in range(len(arr)):
-        # Find the minimum element in remaining unsorted array
-        min_idx = i
-        for j in range(i+1, len(arr)):
-            if arr[j] < arr[min_idx]:
-                min_idx = j
-        
-        # Swap the found minimum element with the first element
-        arr[i], arr[min_idx] = arr[min_idx, arr[i]]
+def selection_sort(arr):                                                # Valiku sorteerimise algoritm
+    n = len(arr)                                                        # Määrame massiivi pikkuse
+    for i in range(n):                                                  # Välimine tsükkel, mis kordub n korda
+        min_idx = i                                                     # Määrame min_idx väärtuseks i
+        for j in range(i+1, n):                                         # Sisemine tsükkel, mis kordub n-i-1 korda
+            if arr[j] < arr[min_idx]:                                   # Kui praegune element on väiksem kui min_idx element
+                min_idx = j                                             # Määrame min_idx väärtuseks j
+        print(f"{i+1} - V2ikseim element on: {arr[min_idx]}")           # Prindime väikseima elemendi
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]                     # Vahetame elemendid omavahel
+    return arr                                                          # Tagastame sorteeritud massiivi
 
-    return arr
-
-# Example usage
-if __name__ == "__main__":
-    arr = [29, 15, 56, 77, 18]
-    sorted_arr = selection_sort(arr)
-    print("Sorted array is:", sorted_arr)
+arr = [29, 15, 56, 77, 18]                                              # Kodutöö 2.2 massiiv
+sorted_arr = selection_sort(arr)                                        # Kutsub välja valiku sorteerimise funktsiooni
+print("Sorteeritult:", sorted_arr)                                      # Prindib sorteeritud massiivi

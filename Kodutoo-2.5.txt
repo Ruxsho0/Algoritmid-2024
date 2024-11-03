@@ -1,0 +1,10 @@
+Stabiilsus ja adaptiivsus sortimisel
+
+a) Sortimisalgoritm on "stabiilne", kui see säilitab võrdsete elementide algse järjekorra pärast sortimist.
+Näiteks, kui meil on loend [12, 8, 2, 1, 2, 6], siis stabiilne sortimisalgoritm sorteerib selle [1, 2, 2, 6, 8, 12],
+säilitades elementide algse järjekorra ehk 2-d jäävad loendis täpselt samasse järjekorda.
+
+b) "Adaptiivsus" sortimisel tähendab, et sortimisalgoritm suudab ära kasutada juba osaliselt sorteeritud andmeid,
+et vähendada sortimise aega.
+Adaptiivne sortimisalgoritm töötab kiiremini, kui sisend on juba osaliselt sorteeritud.
+Insertion Sort on adaptiivne, kui sisend on juba sorteeritud või peaaegu sorteeritud.

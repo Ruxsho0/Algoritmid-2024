@@ -1,0 +1,12 @@
+Ajakompleksuste analüüs
+
+a) Millistel eelmainitud sortimisalgoritmidel on halvimal juhul ajakompleksus O(n^2)?
+
+- Kõigil neist
+
+b) Milline sortimisalgoritm oleks kõige sobivam sortimaks loendit täisarvudega, mis jäävad vahemikku 1 kuni 100 ja miks?
+
+- Kõige sobivam sortimisalgoritm oleks Counting Sort, kuna selle ajakompleksus on O(n + k), 
+kus n on elementide arv ja k on vahemiku suurus.
+
+Antud juhul on k konstantne (100), seega Counting Sort töötab väga efektiivselt.

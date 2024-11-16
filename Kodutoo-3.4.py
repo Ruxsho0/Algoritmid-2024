@@ -18,7 +18,7 @@ function ternarySearch(arr, left, right, key):
             return ternarySearch(arr, mid2 + 1, right, key)
         else:
             return ternarySearch(arr, mid1 + 1, mid2 - 1, key)
-    return -1                                                           # kui elementi ei leita
+    return -1                                                       # kui elementi ei leita
 '''
     
 

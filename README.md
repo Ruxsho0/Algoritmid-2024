@@ -1,3 +1,2 @@
 # Algoritmid-2024
-Kodutöö 2 
-Juss Arus
+Kodutoo 2 Juss Arus
